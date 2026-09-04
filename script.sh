@@ -19,7 +19,7 @@ fi
     [ -e "$f" ] || continue
     name=$(basename "$f")
     echo "<p align=\"center\">"
-    echo "  <img src=\"$f\" width=\"400\"><br>"
+    echo "  <img src=\"$f\" width=\"800\"><br>"
     echo "  <sub>$name</sub>"
     echo "</p>"
     echo ""
