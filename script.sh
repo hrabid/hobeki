@@ -13,8 +13,9 @@ if [ ! -d "$STATIC_DIR" ]; then
 fi
 
 {
+  echo "# HOBEKI?"
+  echo ""HOBEKI?" is an anonymous street artist known for his symbolic street arts and his legendary creation of a fictional character "Subodh". The arts first appeared around 2017 in Dhaka. Then these arts spread across bangladesh and all the way to Sikim, India. To this day both the artist "HOBEKI?" and his creation "Subodh" is mystry."
   echo "# Graffiti of HOBEKI?"
-  echo ""
   for f in "$STATIC_DIR"/*.jpg; do
     [ -e "$f" ] || continue
     name=$(basename "$f")
