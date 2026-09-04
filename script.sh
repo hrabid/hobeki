@@ -18,8 +18,10 @@ fi
   for f in "$STATIC_DIR"/*.jpg; do
     [ -e "$f" ] || continue
     name=$(basename "$f")
-    echo "![$name]($f)"
-    echo "$name"
+    echo "<p align=\"center\">"
+    echo "  <img src=\"$f\" width=\"400\"><br>"
+    echo "  <sub>$name</sub>"
+    echo "</p>"
     echo ""
   done
 } >>"$README"
