@@ -1,0 +1,17 @@
+# backups 
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# other files 
+.megaignore
+.debris/
+.stfolder/
+.stignore
+# .trash/
+
+.obsidian/workspace**
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

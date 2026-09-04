@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "commands": "multitext",
+    "Links": "multitext",
+    "g": "number",
+    "finish": "date",
+    "pages": "number",
+    "year": "number",
+    "author": "multitext"
+  }
+}

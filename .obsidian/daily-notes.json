@@ -1,0 +1,6 @@
+{
+  "autorun": false,
+  "folder": "journals",
+  "template": "templates/journals.md",
+  "format": "dddd, DD MMMM, YYYY"
+}
